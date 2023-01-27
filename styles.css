@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://i.imgur.com/Rqm6Whm.jpg");
+    background-size: cover;
+    color: rgb(71, 83, 95);
+  }
+      
+  .intro {
+    width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        background-color: rgba(240, 240, 245, .9);
+        padding: 20px;
+        height: 500px;
+  }
+  h1, p, h2, h3 {
+    text-align: center;
+  }
+  
+  hr {
+    color: rgb(95, 123, 178);
+    height: .5px;
+    opacity: .6;
+  }
+    
