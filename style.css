@@ -30,17 +30,17 @@ body {
   }
 
   span#range {
-    background-image: linear-gradient(to right,  #ff3213,  #01aefd);
+    background-image: linear-gradient(to right,  #c7613f,  #256b8b);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .width {
-    color: rgba(132, 106, 217, 0.985);
+    color: rgba(125, 119, 158, 0.985);
   }
 
   span#percent {
-    color: rgb(69, 125, 255);
+    color: rgb(82, 119, 149);
   }
   
 .divider {
@@ -48,7 +48,16 @@ body {
   opacity: .2;
 }
 
+h3#hot {
+  background-image: linear-gradient(to right,  #f87b52,  #256b8b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
+h3#meals {
+  color: rgba(125, 119, 158, 0.985);
+}
 
-
- 
+h3#humid {
+  color: rgb(82, 119, 149);
+}
