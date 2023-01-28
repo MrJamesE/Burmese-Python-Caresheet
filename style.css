@@ -1,7 +1,8 @@
 body {
-    background-image: url("https://i.imgur.com/Rqm6Whm.jpg");
+    background: url("https://i.imgur.com/Rqm6Whm.jpg") no-repeat center fixed;
     background-size: cover;
     color: rgb(71, 83, 95);
+    background-repeat: no-repeat;
   }
       
   .intro {
@@ -11,7 +12,7 @@ body {
         padding: 20px;
         background-color: rgba(240, 240, 245, .9);
         padding: 20px;
-        height: 500px;
+        height: 700px;
   }
   h1, p, h2, h3 {
     text-align: center;
