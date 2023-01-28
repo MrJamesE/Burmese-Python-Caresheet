@@ -28,11 +28,21 @@ body {
   .cheatsheet {
     text-align: center;
   }
-  li#temp {
+
+  span#range {
     background-image: linear-gradient(to right,  #ff3213,  #01aefd);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .width {
+    color: rgba(132, 106, 217, 0.985);
+  }
+
+  span#percent {
+    color: rgb(69, 125, 255);
+  }
+  
 .divider {
   height: 0px;
   opacity: .2;
