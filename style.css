@@ -25,6 +25,9 @@ body {
     opacity: .6;
   }
 
+  .cheatsheet {
+    text-align: center;
+  }
   li#temp {
     background-image: linear-gradient(to right,  #ff3213,  #01aefd);
     background-clip: text;
