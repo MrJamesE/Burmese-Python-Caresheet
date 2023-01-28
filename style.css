@@ -25,10 +25,6 @@ body {
     opacity: .6;
   }
 
-  .cheatsheet {
-    text-align: center;
-  }
-
   span#range {
     background-image: linear-gradient(to right,  #c7613f,  #256b8b);
     background-clip: text;
@@ -42,12 +38,22 @@ body {
   span#percent {
     color: rgb(82, 119, 149);
   }
+
+  span#smell {
+    color: rgb(239, 71, 49)
+  }
   
 .divider {
   height: 0px;
   opacity: .2;
 }
 
+.cheatsheet {
+  background-color: rgba(166, 178, 187, 0.396);
+  border-radius: 15px;
+  height: 100%;
+  text-align: center;
+}
 h3#hot {
   background-image: linear-gradient(to right,  #f87b52,  #256b8b);
     background-clip: text;
@@ -58,6 +64,11 @@ h3#meals {
   color: rgba(125, 119, 158, 0.985);
 }
 
+.dimensions {
+  color: rgb(235, 117, 117)
+}
+
 h3#humid {
   color: rgb(82, 119, 149);
 }
+
