@@ -1,91 +1,105 @@
 body {
-    background: url("https://i.imgur.com/Rqm6Whm.jpg") no-repeat center fixed;
-    background-size: cover;
-    color: rgb(71, 83, 95);
-    background-repeat: no-repeat;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  h1#titlemain {
-    background-color: white;
-  }
-      
-  .flex {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    background-color: rgba(240, 240, 245, .9);
-    border-radius: 15px;
-    min-height: 100%;
-  }
-  
-  h1, p, h2, h3, h4 {
-    text-align: center;
-  }
-  
-  hr {
-    color: rgb(95, 123, 178);
-    height: .5px;
-    opacity: .6;
-  }
-
-  ul {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-  }
-
-  span#range {
-    background-image: linear-gradient(to right,  #c7613f,  #256b8b);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .width {
-    color: rgba(125, 119, 158, 0.985);
-  }
-
-  span#percent {
-    color: rgb(82, 119, 149);
-  }
-
-  span#smell {
-    color: rgb(239, 71, 49)
-  }
-  
-.divider {
-  height: 0px;
-  opacity: .2;
+  background: url("https://i.imgur.com/XOk7svG.jpg") no-repeat center fixed;
+  color:  #f6f6f6;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
 }
 
-.cheatsheet {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  background-color: rgba(205, 213, 219, 0.875);
-  border-radius: 15px;
-  height: 100%;
+.panel {
+margin: auto;
+width: 87%;
+background-color: rgba(39, 40, 40, .97);
+padding: 10px;
+border: 5px;
+border-color: green;
+box-shadow: 0 0 6px 2px #3ff8cb,
+            0 0 8px 4px #c03ec2;
+
+}
+
+h1#titlemain {
+  background-color: white;
+  color:  #272828;
+  background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1, p, h2, h3, h4 {
   text-align: center;
-  padding: 5px
-}
-h3#hot {
-  background-image: linear-gradient(to right,  #f87b52,  #256b8b);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
-h3#meals {
-  color: rgba(125, 119, 158, 0.985);
+hr {
+  color: rgb(95, 123, 178);
+  height: .5px;
+  opacity: .6;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+span#range {
+  background-image: linear-gradient(to right,   #ee3924, #24d7ee);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.width {
+  color: #c47ef5;
+}
+
+span#percent {
+  color: #3ff8cb;
+}
+
+span#smell {
+  color: rgb(239, 71, 49)
+}
+
+div#space {
+height: 20px;
+}
+
+h3#hot {
+  background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3#mealtime {
+  background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .dimensions {
-  color: rgb(235, 117, 117)
+color: orange;
+}
+
+h3#home {
+  background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h3#humid {
-  color: rgb(82, 119, 149);
+  background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3#shed {
+  background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3#handle {
+  background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
