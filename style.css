@@ -14,7 +14,6 @@ border: 5px;
 border-color: green;
 box-shadow: 0 0 6px 2px #3ff8cb,
             0 0 8px 4px #c03ec2;
-
 }
 
 h1#titlemain {
@@ -30,9 +29,9 @@ h1, p, h2, h3, h4 {
 }
 
 hr {
-  color: rgb(95, 123, 178);
-  height: .5px;
-  opacity: .6;
+  opacity: .8;
+  border: 2px dashed rgb(74, 199, 188);
+  border-radius: 70%
 }
 
 ul {
@@ -76,7 +75,7 @@ span#nope {
 }
 
 .space {
-height: 20px;
+height: 22px;
 }
 
 div#details {
