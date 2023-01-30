@@ -51,15 +51,31 @@ span#range {
   color: #c47ef5;
 }
 
+.dimensions {
+  color: rgb(255, 192, 44);
+  }
+
 span#percent {
   color: #3ff8cb;
 }
 
 span#smell {
-  color: rgb(239, 71, 49)
+  color: rgb(255, 74, 50)
 }
 
-div#space {
+.constrict {
+  color: aqua;
+}
+
+.bite {
+  color:#c47ef5;
+}
+
+span#nope {
+  color: grey
+}
+
+.space {
 height: 20px;
 }
 
@@ -73,10 +89,6 @@ h3#mealtime {
   background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
    background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.dimensions {
-color: orange;
 }
 
 h3#home {
@@ -103,3 +115,7 @@ h3#handle {
   -webkit-text-fill-color: transparent;
 }
 
+h2#thanks {
+  color:rgb(42, 214, 194);
+  text-shadow: 3px 2px 3px black
+}
