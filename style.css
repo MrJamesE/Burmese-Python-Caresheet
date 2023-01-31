@@ -50,7 +50,7 @@ ul {
   position: relative;
   overflow: hidden;
   color: hsla(185, 55%, 46%, 0.877);
-  background: linear-gradient(to right, #10f784, rgba(19, 238, 183, 0.67) 50%, hsla(185, 55%, 46%, 0.69) 50%);
+  background: linear-gradient(to right, #4bffa5, rgba(19, 238, 183, 0.67) 50%, hsla(185, 55%, 46%, 0.69) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
