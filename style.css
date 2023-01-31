@@ -41,7 +41,16 @@ ul {
 }
 
 .quicklinks {
-  color:  #f6f6f6;
+  position: relative;
+  overflow: hidden;
+  color: #d6d6d6;
+  background: linear-gradient(to right, rgba(51, 255, 238, 1), rgb(51, 255, 180) 50%, #d6d6d6 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 350ms ease;
 }
 
 .quicklinks:link {
@@ -53,9 +62,8 @@ ul {
 }
 
 .quicklinks:hover {
+  background-position: 0 100%; 
   text-decoration: none;
-  box-shadow: 0 0 4px 1px #3ff8cb,
-  0 0 6px 2px #c03ec2;  
 }
 
 .quicklinks:active {
@@ -113,6 +121,7 @@ h3#shed, h3#handle {
   }
 
   a#toplink {
+    text-decoration: none;
     text-align: center;
     display: block;
     color:rgb(42, 214, 194);
