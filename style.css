@@ -5,6 +5,10 @@ body {
   font-family: 'Press Start 2P', cursive;
 }
 
+#titlemain:hover {
+  box-shadow: 0 0 5px 2px #3ff8e9,
+  0 0 6px 2px #34e624;
+}
 .panel {
 margin: auto;
 width: 87%;
@@ -17,11 +21,13 @@ box-shadow: 0 0 6px 2px #3ff8cb,
 }
 
 h1#titlemain {
+  padding: 3px;
   background-color: white;
   color:  #272828;
   background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-radius: 5px
 }
 
 h1, p, h2, h3, h4 {
@@ -43,8 +49,8 @@ ul {
 .quicklinks {
   position: relative;
   overflow: hidden;
-  color: #e6601d;
-  background: linear-gradient(to right, rgb(80, 255, 162), rgba(48, 250, 243, 0.875) 50%, hsla(185, 55%, 46%, 0.877) 50%);
+  color: hsla(185, 55%, 46%, 0.877);
+  background: linear-gradient(to right, #2bff8e, rgba(48, 250, 210, 0.533) 50%, hsla(185, 55%, 46%, 0.877) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -126,9 +132,13 @@ h3#shed, h3#handle {
     text-decoration: none;
     text-align: center;
     display: block;
-    color:rgb(42, 214, 194);
+    color: hsla(185, 55%, 46%, 0.877);
     box-shadow: 0 0 4px 1px #3ff8cb,
             0 0 6px 2px #c03ec2;
+  }
+
+  a#toplink:hover {
+    color:#4dffff
   }
 
 h2#thanks {
