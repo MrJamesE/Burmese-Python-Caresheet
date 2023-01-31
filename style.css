@@ -40,6 +40,28 @@ ul {
   text-align: left;
 }
 
+.quicklinks {
+  color:  #f6f6f6;
+}
+
+.quicklinks:link {
+  text-decoration: none;
+}
+
+.quicklinks:visited {
+  text-decoration: none;
+}
+
+.quicklinks:hover {
+  text-decoration: none;
+  box-shadow: 0 0 4px 1px #3ff8cb,
+  0 0 6px 2px #c03ec2;  
+}
+
+.quicklinks:active {
+  text-decoration: none;
+}
+
 span#range {
   background-image: linear-gradient(to right,   #ee3924, #24d7ee);
   background-clip: text;
