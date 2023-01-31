@@ -43,8 +43,8 @@ ul {
 .quicklinks {
   position: relative;
   overflow: hidden;
-  color: #d6d6d6;
-  background: linear-gradient(to right, rgba(51, 255, 238, 1), rgb(51, 255, 180) 50%, #d6d6d6 50%);
+  color: #e6601d;
+  background: linear-gradient(to right, rgb(80, 255, 162), rgba(48, 250, 243, 0.875) 50%, hsla(185, 55%, 46%, 0.877) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -52,6 +52,7 @@ ul {
   background-position: 100%;
   transition: background-position 350ms ease;
 }
+
 
 .quicklinks:link {
   text-decoration: none;
@@ -70,8 +71,9 @@ ul {
   text-decoration: none;
 }
 
+
 span#range {
-  background-image: linear-gradient(to right,   #ee3924, #24d7ee);
+  background-image: linear-gradient(to right,   #fd510d, #24d7ee);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -81,7 +83,7 @@ span#range {
 }
 
 .dimensions {
-  color: rgb(255, 192, 44);
+  color: rgb(255, 141, 47);
   }
 
 span#percent {
@@ -89,7 +91,7 @@ span#percent {
 }
 
 span#smell {
-  color: rgb(255, 74, 50)
+  color: rgb(255, 141, 47);
 }
 
 .constrict {
