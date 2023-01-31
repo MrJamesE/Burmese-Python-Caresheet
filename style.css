@@ -90,7 +90,14 @@ h3#shed, h3#handle {
   -webkit-text-fill-color: transparent;
   }
 
+  a#toplink {
+    text-align: center;
+    display: block;
+    color:rgb(42, 214, 194);
+    box-shadow: 0 0 4px 1px #3ff8cb,
+            0 0 6px 2px #c03ec2;
+  }
+
 h2#thanks {
   color:rgb(42, 214, 194);
   text-shadow: 4px 4px 2px black
-}
