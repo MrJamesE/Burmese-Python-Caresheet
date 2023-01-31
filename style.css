@@ -50,13 +50,13 @@ ul {
   position: relative;
   overflow: hidden;
   color: hsla(185, 55%, 46%, 0.877);
-  background: linear-gradient(to right, #2bff8e, rgba(48, 250, 210, 0.533) 50%, hsla(185, 55%, 46%, 0.877) 50%);
+  background: linear-gradient(to right, #10f784, rgba(19, 238, 183, 0.67) 50%, hsla(185, 55%, 46%, 0.69) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 350ms ease;
+  transition: background-position 400ms ease;
 }
 
 
@@ -89,7 +89,7 @@ span#range {
 }
 
 .dimensions {
-  color: rgb(255, 141, 47);
+  color: rgb(252, 255, 47);
   }
 
 span#percent {
@@ -138,7 +138,7 @@ h3#shed, h3#handle {
   }
 
   a#toplink:hover {
-    color:#4dffff
+    color:#d8ff4d
   }
 
 h2#thanks {
