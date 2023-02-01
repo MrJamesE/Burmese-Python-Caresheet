@@ -52,7 +52,7 @@ ul {
   position: relative;
   overflow: hidden;
   color: hsla(185, 55%, 46%, 0.877);
-  background: linear-gradient(to right, hwb(24 34% 0%), rgba(247, 75, 32, 0.767) 50%, hsl(185, 93%, 59%) 50%);
+  background: linear-gradient(to right, hwb(24 34% 0%), rgba(247, 75, 32, 0.951) 50%, hsl(185, 93%, 59%) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
