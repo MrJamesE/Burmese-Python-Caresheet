@@ -28,8 +28,8 @@ h1#titlemain {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   border-radius: 5px;
-  box-shadow: 0 0 5px 2px #3ff8e9,
-  0 0 6px 2px #34e624;
+  box-shadow: 0 0 5px 2px #3ff8e986,
+  0 0 6px 2px #34e6247a;
 }
 
 h1, p, h2, h3, h4 {
@@ -37,7 +37,7 @@ h1, p, h2, h3, h4 {
 }
 
 hr {
-  opacity: .8;
+  opacity: .7;
   border: 2px dashed rgb(74, 199, 188);
   border-radius: 70%
 }
@@ -52,7 +52,7 @@ ul {
   position: relative;
   overflow: hidden;
   color: hsla(185, 55%, 46%, 0.877);
-  background: linear-gradient(to right, hsl(24, 100%, 63%), rgba(255, 91, 50, 0.822) 50%, hsla(185, 32%, 52%, 0.479) 50%);
+  background: linear-gradient(to right, hwb(24 34% 0%), rgba(247, 75, 32, 0.767) 50%, hsl(185, 93%, 59%) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -95,7 +95,7 @@ span#range {
   }
 
 span#percent {
-  color: #3ff8cb;
+  color: rgb(0, 255, 162);
 }
 
 span#smell {
@@ -103,7 +103,7 @@ span#smell {
 }
 
 .constrict {
-  color: aqua;
+  color: rgb(0, 255, 162);
 }
 
 .bite {
