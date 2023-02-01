@@ -6,8 +6,8 @@ body {
 }
 
 #titlemain:hover {
-  box-shadow: 0 0 5px 2px #3ff8e9,
-  0 0 6px 2px #34e624;
+  box-shadow: -2px -2px 5px 3px #3ff8a2,
+  2px 2px 6px 3px #24e6a5;
 }
 .panel {
 margin: auto;
@@ -24,10 +24,12 @@ h1#titlemain {
   padding: 3px;
   background-color: white;
   color:  #272828;
-  background-image: linear-gradient(to             top,  #c03ec2,  #3ff8cb);
+  background-image: linear-gradient(to top,  #c03ec2,  #3ff8cb);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  border-radius: 5px
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px #3ff8e9,
+  0 0 6px 2px #34e624;
 }
 
 h1, p, h2, h3, h4 {
@@ -50,7 +52,7 @@ ul {
   position: relative;
   overflow: hidden;
   color: hsla(185, 55%, 46%, 0.877);
-  background: linear-gradient(to right, #4bffa5, rgba(19, 238, 183, 0.67) 50%, hsla(185, 55%, 46%, 0.69) 50%);
+  background: linear-gradient(to right, hsl(24, 100%, 63%), rgba(255, 91, 50, 0.822) 50%, hsla(185, 32%, 52%, 0.479) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
