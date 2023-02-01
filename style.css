@@ -28,8 +28,9 @@ h1#titlemain {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   border-radius: 5px;
+  /*
   box-shadow: 0 0 5px 2px #3ff8e986,
-  0 0 6px 2px #34e6247a;
+  0 0 6px 2px #34e6247a;*/
 }
 
 h1, p, h2, h3, h4 {
@@ -58,7 +59,7 @@ ul {
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;
-  transition: background-position 400ms ease;
+  transition: background-position 380ms ease;
 }
 
 
