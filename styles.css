@@ -36,6 +36,7 @@ box-shadow: inset 0 0 6px 2px #3ff8cb,
 }
 
 h1#titlemain {
+  display:block;
   padding: 4px;
   background-color: white;
   color:  #272828;
