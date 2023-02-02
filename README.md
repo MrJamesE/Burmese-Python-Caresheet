@@ -1,2 +1,2 @@
 # Caresheet
-This is an educational page regarding the care of Burmese Pythons written from my own experience working with reptiles. This is my first project as I learn HTML &amp; CSS. I'm going for retro arcade/classic game nostalgia.
+This page is the first independent project I've made while starting my development journey on freeCodeCamp. I plan to improve it functionally and cosmetically as I learn.
