@@ -98,7 +98,7 @@ body {
   
   
   span#range {
-    background-image: linear-gradient(to right,   #fd510d, #24d7ee);
+    background: linear-gradient(to right,   #fd510d, #24d7ee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
