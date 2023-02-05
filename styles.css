@@ -97,10 +97,12 @@ body {
   }
   
   
-  span#range {
-    background: linear-gradient(to right,   #fd510d, #24d7ee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  span#range1 {
+    color: orange
+  }
+
+  span#range2 {
+    color:rgb(4, 163, 255)
   }
   
   .width {
@@ -116,7 +118,7 @@ body {
   }
   
   span#smell {
-    color: rgb(255, 141, 47);
+    color: orange;
   }
   
   .constrict {
