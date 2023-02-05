@@ -53,11 +53,13 @@ body {
     text-align: center;
   }
   
+  /*
   hr {
     opacity: .7;
     border: 2px dashed rgb(74, 199, 188);
     border-radius: 70%
   }
+  */
   
   ul {
     display: table;
@@ -69,7 +71,7 @@ body {
     position: relative;
     overflow: hidden;
     color: hsla(185, 55%, 46%, 0.877);
-    background: linear-gradient(to right, hwb(24 34% 0%), rgba(247, 75, 32, 0.951) 50%, hsl(185, 93%, 59%) 50%);
+    background: linear-gradient(to right, hwb(58 3% 0%), rgb(253, 238, 122) 50%, hsl(185, 93%, 59%) 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -77,7 +79,6 @@ body {
     background-position: 100%;
     transition: background-position 380ms ease;
   }
-  
   
   .quicklinks:link {
     text-decoration: none;
