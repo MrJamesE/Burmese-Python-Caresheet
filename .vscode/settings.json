@@ -1,4 +1,4 @@
 {
     "git.postCommitCommand": "none",
-    "scm.alwaysShowActions": true
+    "scm.alwaysShowActions": false
 }
