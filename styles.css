@@ -1,5 +1,5 @@
 body {
-    background: url(https://i.imgur.com/NgcrsIJ.jpg) no-repeat center fixed;
+    background: url(https://i.imgur.com/TndXMgp.jpg) no-repeat center fixed;
     color:  #f6f6f6;
     background-size: cover;
     font-family: 'Press Start 2P', sans-serif;
@@ -44,20 +44,16 @@ body {
     background-image: linear-gradient(to top,  #1fdcf5,  #0bff75);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
+    /*
     box-shadow: 0 0 8px 1px #3ff8e9c7,
-    inset 0 0 10px 3px rgba(20, 21, 21, 0.95);
+    inset 0 0 10px 3px rgba(20, 21, 21, 0.95); */
   }
 
   h1#opening:hover {
-    display: block;
-    padding: 4px;
-    background-color: rgb(24, 23, 23);
-    color:  #272828;
-    background-image: linear-gradient(to top,  #1fdcf582,  #0bff7594);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    background-image: linear-gradient(to top,  #1faef582,  #0bff7564);
+    /*
     box-shadow: 0 0 2px 1px #00ffcc,
-    inset 0 0 12px 8px rgba(20, 21, 21, 0.95);
+    inset 0 0 12px 8px rgba(20, 21, 21, 0.95); */
   }
 
   h1#titlemain {
