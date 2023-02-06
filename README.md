@@ -1,2 +1,2 @@
 # Caresheet
-This page is the first independent project I've made while starting my development journey on freeCodeCamp. I plan to improve it functionally and cosmetically as I learn.
+This page is my first development project as I learn HTML and CSS. I wanted to present the information in an unexpected way, and decided to go for a retro arcade/classic game style. I'm a life long reptile (and other animal) enthusiast and have always loved gaming and computers as well. I'm currently using this page to build skills and enjoy my new passion while also incorporating what I've always loved! I will continue to improve the website as I learn.
