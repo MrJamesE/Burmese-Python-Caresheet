@@ -171,6 +171,7 @@ body {
       text-align: center;
     }
     a#toplink {
+      text-decoration: none;
       display: inline-block;
       margin: auto;
       overflow: hidden;
