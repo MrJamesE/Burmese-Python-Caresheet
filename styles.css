@@ -192,9 +192,3 @@ body {
     a#toplink:hover {
       background-position: 0 100%;
     }
-
-  h2#thanks {
-    color:rgb(42, 214, 194);
-    text-shadow: 4px 4px 2px black;
-  }
-  
