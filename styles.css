@@ -105,9 +105,11 @@ body {
     text-decoration: none;
   }
   
-  .quicklinks:hover {
+  .quicklinks:hover, a#toplink:hover {
     background-position: 0 100%; 
     text-decoration: none;
+    cursor: pointer;
+    
   }
   
   .quicklinks:active {
@@ -189,6 +191,3 @@ body {
       transition: background-position 380ms ease;
     }
 
-    a#toplink:hover {
-      background-position: 0 100%;
-    }
